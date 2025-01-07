@@ -1,0 +1,102 @@
+body {
+    background-color:#FFFFFF;
+    margin:0;
+}
+
+intro {
+    padding-left:20px;
+    padding-right:20px;
+    font-family:Garamond;
+    font-size:15px;
+    text-align:center;
+}
+
+header, footer, nav {
+    width:100%;
+    background-color:#000000;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:1px;
+    padding-bottom:1px;
+    font-family: Verdana;
+    color:#FFFFFF;
+    text-align:left;
+    
+    a:link {
+        color: #FFFAF0;
+    };
+
+    a:visited{
+        color: #DCDCDC;
+    };
+
+    a:hover {
+        color: #FFFFFF;
+    };
+
+    a:active {
+        color: #FFFFFF;
+    };
+}
+
+nav {
+    background-color:#121212;
+}
+
+video {
+    display:block;
+    margin:0 auto;
+}
+
+section {
+    margin:10px;
+}
+
+img.pic {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    
+}
+
+#magpub {
+    float: left;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+#logo {
+    border: 1px solid #F0F0F0;
+    border-radius: 50px;
+    float: left;
+    margin: 10px;
+}
+
+#heading {
+    display: flex;
+}
+
+section.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration:none;
+}
+
+
+
